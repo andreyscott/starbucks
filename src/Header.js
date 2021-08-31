@@ -24,8 +24,8 @@ function Header({ menuPage }) {
         <Link to='/menu' className='header__link'>
           Menu
         </Link>
-        <Link className='header__link' to="https://andrewIrorere.tech">Rewards</Link>
-        <Link className='header__link'>Gift Cards</Link>
+        <Link className='header__link' to="https://www.andrewIrorere.tech">Rewards</Link>
+        <Link className='header__link' to="/menu">Gift Cards</Link>
       </div>
       <div className='header__right'>
         <Example />
