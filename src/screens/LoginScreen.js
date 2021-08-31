@@ -56,7 +56,7 @@ function LoginScreen() {
               InputLabelProps={{
                 style: { color: "rgba(0,0,0,.56)" },
               }}
-              InputProps={{ style: { fontWeight: "800" } }}
+              InputProps={{ style: { fontWeight: "550" } }}
               className="loginScreen__input"
               inputRef={register({ required: true })}
             />
