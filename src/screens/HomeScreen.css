@@ -46,7 +46,7 @@
   gap: 60px;
   align-items: center;
   justify-content: center;
-  background-color: #d4e9e2;
+  background-color: #f2f0eb;
 }
 
 .homeScreen__bottomLeft {
@@ -96,8 +96,8 @@
   background-color: rgba(30, 57, 50, 0.1);
 }
 
-.homeScreen__bottomRight {
-}
+/* .homeScreen__bottomRight {
+} */
 
 .homeScreen__bottomRight > img {
   object-fit: contain;

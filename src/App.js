@@ -19,7 +19,7 @@ import MenuScreen from "./screens/MenuScreen";
 import SignupScreen from "./screens/SignupScreen";
 
 function App() {
-  const user = useSelector(selectUser);
+const user = useSelector(selectUser);
   const dispatch = useDispatch();
 
   useEffect(() => {
