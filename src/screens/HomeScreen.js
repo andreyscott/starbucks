@@ -20,33 +20,32 @@ function HomeScreen() {
       <Fade>
         <div className="homeScreen__bottom">
           <div className="homeScreen__bottomLeft">
-            <h4>Investing in our communities</h4>
+            <h4>WELCOME BACK, PUMPKIN</h4>
             <p>
-              The Starbucks Foundation awarded grants to over 400 nonprofits
-              serving communities of color. Recipients were nominated by
-              Starbucks partners (employees).
+            The quintessential flavor is back in session with the velvety, 
+            cool Pumpkin Cream Cold Brew and the warm and cozy  Pumpkin Spice Latte.
             </p>
-            <button>Learn more</button>
+            <button>Order Now</button>
           </div>
           <div className="homeScreen__bottomRight">
             <img
-              src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-68026.jpg"
+              src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-73204.png"
               alt=""
             />
           </div>
         </div>
       </Fade>
       <Fade>
-        <Heading heading="TODAY IS YOURS" />
+        <Heading heading="PERFECTLY SPICED OH, SO NICE" />
       </Fade>
       <div className="homeScreen__featured">
         <Fade>
           <Featured
             title="NICELY NONDAIRY"
-            info="Say yes to sips of delight with our Honey Almondmilk Flat White and new Honey Almondmilk Cold Brew."
+            info="Celebrate the return of pumpkin with these bakery favorites—warm autumn spices and just the right amount of sweetness."
             link="Explore the honey drinks"
             path=""
-            image="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-68069.png"
+            image="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-73314.png"
             background="#f0ebe0"
             color="#1e3932"
             className="featured__hoverLight"
@@ -80,6 +79,30 @@ function HomeScreen() {
             background="#d4e9e4"
             className="info__hoverLight"
           />
+          
+          <Info
+            title="Coffee delivered. Day made."
+            image="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-67829.jpg"
+            info="Make everything a little brighter. Enjoy a $0 Delivery Fee* on your first Uber Eats order over $15 through 1/31."
+            link="Order now"
+            color="#1e3932"
+            background="#d4e9e4"
+            className="info__hoverLight"
+          />
+        </div>
+      </Fade>
+      <Fade>
+      <div className="homeScreen__discover">
+          <Info
+            title="Order and pick up. Easy as that."
+            image="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-67828.jpg"
+            info="Just open the app, order your favorites, and enjoy contactless pay. From there, choose whichever pickup method is best for you."
+            link="See pickup options"
+            color="#1e3932"
+            background="#d4e9e4"
+            className="info__hoverLight"
+          />
+          
           <Info
             title="Coffee delivered. Day made."
             image="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-67829.jpg"
