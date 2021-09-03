@@ -7,7 +7,7 @@ import VisibilityOutlinedIcon from "@material-ui/icons/VisibilityOutlined";
 import { TextField } from "@material-ui/core";
 import { useForm } from "react-hook-form";
 import FormSubmit from "./FormSubmit";
-import { auth } from "./firebase.jsx";
+import { auth } from "./firebase";
 import { useDispatch } from "react-redux";
 import { login } from "./features/userSlice";
 import { useHistory } from "react-router-dom";

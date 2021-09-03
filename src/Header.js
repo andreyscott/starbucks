@@ -6,7 +6,8 @@ import SignInButton from './SignInButton'
 import SignUpButton from './SignUpButton'
 import FindAStore from './FindAStore'
 import { useSelector } from 'react-redux'
-import { selectUser } from './features/userSlice'
+import { selectUser } from './features/userSlice';
+import External from './external';
 import LogoutButton from './LogoutButton'
 
 function Header({ menuPage }) {
@@ -24,7 +25,7 @@ function Header({ menuPage }) {
         <Link to='/menu' className='header__link'>
           Menu
         </Link>
-        <Link className='header__link' to="https://www.andrewIrorere.tech">Rewards</Link>
+        <Link className='header__link' to={{ pathname: "https://andrewirorere.tech/"  }} target="_blank" >Dev Contact</Link>
         <Link className='header__link' to="/menu">Gift Cards</Link>
       </div>
       <div className='header__right'>
