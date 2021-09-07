@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import FindAStore from './FindAStore'
-import './FooterSecondary.css';
-import External from './external';
+import './FooterSecondary.css'
 
 function FooterSecondary({ alignItems, paddingLeft, flexDirection }) {
   return (
@@ -23,7 +22,7 @@ function FooterSecondary({ alignItems, paddingLeft, flexDirection }) {
             <Link>Web Accessibility</Link>
             <Link>Privacy Policy</Link>
             <Link>Terms of Use </Link>
-            <Link to={External} >Developer Contact</Link>
+            <Link>Cookie Preferences</Link>
           </div>
         </div>
         <span className='footerSecondary__copyright'>© 2021 Starbucks</span>
