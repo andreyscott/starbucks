@@ -34,7 +34,6 @@
 .featured__right > img {
   object-fit: contain;
   width: 600px;
-  padding-left: 3rem;
 }
 
 .featured__left > a {

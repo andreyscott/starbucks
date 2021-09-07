@@ -7,7 +7,6 @@ import SignUpButton from './SignUpButton'
 import FindAStore from './FindAStore'
 import { useSelector } from 'react-redux'
 import { selectUser } from './features/userSlice';
-import External from './external';
 import LogoutButton from './LogoutButton'
 
 function Header({ menuPage }) {
@@ -18,8 +17,8 @@ function Header({ menuPage }) {
       <div className='header__left'>
         <Link className='header__logo' to='/'>
           <img
-            src='https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png'
-            alt=''
+            src='https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png'
+            alt='starbucks logo'
           />
         </Link>
         <Link to='/menu' className='header__link'>
