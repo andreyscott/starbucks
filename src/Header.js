@@ -17,7 +17,7 @@ function Header({ menuPage }) {
       <div className='header__left'>
         <Link className='header__logo' to='/'>
           <img
-            src='https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png'
+            src='https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png'
             alt='starbucks logo'
           />
         </Link>
