@@ -32,7 +32,7 @@
 }
 
 .loginScreen__info > h1 {
-  font-weight: 800;
+  font-weight: 500;
 }
 
 .loginScreen__right {
@@ -72,7 +72,7 @@
   margin-bottom: 15px;
   text-decoration: underline;
   color: #00653e;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 15px;
 }
 
@@ -118,7 +118,7 @@
 
 .loginScreen__rewards > h4 {
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 1.4px;
 }
 
@@ -144,7 +144,7 @@
   border-width: 1px;
   border-radius: 50px;
   padding: 7px 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.2;
   text-align: center;
   text-decoration: none;
@@ -159,13 +159,13 @@
 
 .loginScreen__joinNowContainer > h4 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   color: rgba(0, 0, 0, 0.87);
 }
 
 .loginScreen__joinNowContainer > p {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.6;
 }
 
