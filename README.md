@@ -15,13 +15,12 @@ You can view the site here
 - Material UI
 - React Hooks
 - Flexbox
-- Firebase's Firestore realtime Database
 - Firebase Google Authentication (Full Login)
 - React Flip Move
 - react Router Dom
 - Redux
 - React Hook Form
-  - React Awesome Reveal
+- React Awesome Reveal
 - Framer Motion
 - Responsive Design
 - Deploy the App LIVE on Firebase
