@@ -23,6 +23,7 @@ You can view the site here
 - React Awesome Reveal
 - Framer Motion
 - Responsive Design
+- css
 - Deploy the App LIVE on Firebase
 
 ## Author
